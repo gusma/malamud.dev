@@ -57,9 +57,10 @@ const Bio = () => {
         Written by <strong>Gustavo Malamud</strong> who lives and works in Buenos Aires, making all kinds of terrible things with optimism.
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
-        Hurl your insults/ comments/ suggestions/ ramblings at me.
+          Hurl your insults/ comments/ suggestions/ ramblings at me.
         </a>
       </p>
+      <hr />
     </div>
   )
 }
