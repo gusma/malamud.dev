@@ -1,6 +1,6 @@
 ---
 title: Building your coding career anew at 36. (Part 1)
-date: "2019-10-13 T20:10:03.284Z"
+date: "2019-10-13"
 description: "On how to start over at 36 without losing your mind. Or how somehow I made it without going bald!"
 ---
 
