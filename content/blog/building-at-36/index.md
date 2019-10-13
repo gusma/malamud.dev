@@ -23,8 +23,9 @@ But, I was starting at it at 36. So dangerously close to the edge. Why hadn't I 
 
 Heck, for an example, sometimes (most times), friday nights become an excuse to skip the pints and parties, and go straight to bed. Yes, I've become an old guy. This wouldn't even have been a possibility while being younger. 
 
->> This will probably become a long series so I'll try to dish it out in different posts for various 
->> purposes and processes.
+> This will probably become a long series so I'll try to dish it out in different posts for various 
+> purposes and processes.
+
 
 ### First steps, baby steps. Get stepping.
 
@@ -34,17 +35,21 @@ Ok. So you've decided to make a change. I decided on it before this, as well. I 
 
 __First of all, get to work. Start studying.__ Options are infinite towards this end, from your presential bootcamps (in my case, living in Argentina you have many useful options, ranging from local ones for us South Americans or Argentines such as [Acamica](https://www.acamica.com "Acamica"), [Digital House](https://www.digitalhouse.com "Digital House"), [CourseIt](https://www.courseit.com.ar "CourseIt") -where I have studied-, [CoderHouse](https://www.coderhouse.com "CoderHouse"), [Plataforma5](https://www.plataforma5.la "Plataforma5"), etc.) to your online video sources ([Udemy](https://www.udemy.com "Udemy"), [Egghead.io](https://www.egghead.io "Egghead"), [Frontend Masters](https://www.frontendmasters.com "Frontend Masters")), and some sources even depending on the stack you manage (if you're going for a JS Based stack for an example, checking out [Wes Bos's videos](https://www.wesbos.com "Wes Bos"), or even Mosh Hamedani's can do you good). Also, some coder bootcamps like [Codecademy](https://www.codecademy.com "Codecademy") can be a good fit too.
 
+
 ![Ignorant monkey hell](https://media.giphy.com/media/pFwRzOLfuGHok/giphy.gif)
+
 
 __Make a habit of studying__. Set time aside every day. As a friend of mine ([/sammartfrank on GitHub](https://www.github.com/sammartfrank "SammartFrank")) said _"I hated my job so much, I'd start studying at least an hour every day. The worser I felt, the more time I'd put in. It was sort of a personal vengeance." 
 
 
 __Don't despair and don't try to take in everything at once__. No master is built in one sitting. Many subjects (especially in the JS based-stack) take time to be learnt and internalised. New frameworks and builds to the existing ones are being thrown into the fire every day. Trying to make up for lost time seems like a nice idea but getting desperate can only lead to premature burnout or despair.  Be patient, focus, and don't worry. You'll get it and eventually get to other things. Try to do one thing at a time, focus, and with practice things will change. 
 
+
 ![Overwhelmed by programming](https://media.giphy.com/media/OK27wINdQS5YQ/giphy.gif)
+
 
 __Try to check out what you need to build your portfolio__. These are only some ideas but ones to build upon and to follow as guiding ideas. Build on your Github profile. Or your [Dev.to](https://www.dev.to "Dev.to") profile. Or your [Reddit](https://www.reddit.com "Reddit") or [Stack Overflow](https://www.stackoverflow.com "Stack Overflow") profile. Get into challenge sites (like [CodeWars](https://www.codewars.com "CodeWars")) if it's your fit. Begin to see what your colleagues and/or contemporaries build their profiles on (live projects? Passion projects? Freelance clients? Want to build out a website but don't know where to start on? Look out for those freebies on behance for an example, those illustrator or XD files, and begin coding them in. _Nothing besides practice will do, and the more you put in, the better it will result._
 
 
-__ This will continue! I promise. Sorry if this is such a TL;DR.__
+__This will continue! I promise. Sorry if this is such a TL;DR.__
 
