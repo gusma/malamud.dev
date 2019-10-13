@@ -4,13 +4,16 @@ date: "2019-10-13 T19:50:03.284Z"
 description: "On how to start over at 36 without losing your mind. Or how somehow I made it without going bald!"
 ---
 
+
 I'm not fully sure how to begin this, so, I'll try to take it as pragmatically as I can.
 
 As you are all probably aware by now my name is Gustavo. I'm 36 years old now. Even though for most of my professional career I have worked alongside the technology industry in several of its related niches, this is the *first time* I've embarked full-time on a software engineering / development job opportunity, at [GlobalLogic](http://www.globallogic.com). Yes, I have had freelance experiences as a developer, but never under the brace of full responsibility, teamwork and the structures and conventions they imply.
 
 I've decided to take the plunge and leave the comfort of a 14 year experience in the Digital Marketing industry towards building products and projects in Software Engineering. It's challenging to leave the comfort zone of a job where you know how to embark on new projects without having to rediscover your full toolset. Without knowing what the best practices in many aspects are.
 
+
 ![Panic](https://media.giphy.com/media/8Ep2aFnTfs6TC/giphy.gif)
+
 
 ## What did this all mean for me? 
 
@@ -23,8 +26,10 @@ But, I was starting at it at 36. So dangerously close to the edge. Why hadn't I 
 
 Heck, for an example, sometimes (most times), friday nights become an excuse to skip the pints and parties, and go straight to bed. Yes, I've become an old guy. This wouldn't even have been a possibility while being younger. 
 
+
 > This will probably become a long series so I'll try to dish it out in different posts for various 
 > purposes and processes.
+
 
 
 ### First steps, baby steps. Get stepping.
