@@ -14,6 +14,9 @@ module.exports = [{
       plugin: require('/Users/macbook/Web/malamud.dev/node_modules/gatsby-plugin-typography/gatsby-browser.js'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     },{
+      plugin: require('/Users/macbook/Web/malamud.dev/node_modules/gatsby-plugin-google-tagmanager/gatsby-browser.js'),
+      options: {"plugins":[],"id":"GTM-WQKPX65","includeInDevelopment":false,"defaultDataLayer":{"type":"object","value":{"platform":"gatsby"}},"gtmAuth":"YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING","gtmPreview":"YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME","dataLayerName":"YOUR_DATA_LAYER_NAME"},
+    },{
       plugin: require('/Users/macbook/Web/malamud.dev/gatsby-browser.js'),
       options: {"plugins":[]},
     }]

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import "./layout.css";
 
 import { rhythm, scale } from "../utils/typography";
 
@@ -17,6 +18,7 @@ class Layout extends React.Component {
 						marginBottom: rhythm(1.5),
 						marginTop: 0
 					}}
+					className='great-title'
 				>
 					<Link
 						style={{
@@ -65,9 +67,9 @@ class Layout extends React.Component {
 				<footer>
 					<hr />
 					<p>
-						Gustavo Malamud - © {new Date().getFullYear()}, Built with
+						Gustavo Malamud - © {new Date().getFullYear()}. Built with
 						{` `}
-						<a href='https://www.gatsbyjs.org'>Gatsby</a>
+						<a href='https://www.gatsbyjs.org'>Gatsby</a>.
 					</p>
 				</footer>
 			</div>
