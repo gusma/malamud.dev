@@ -1,5 +1,6 @@
 .great-title {
 	text-transform: uppercase;
+	padding: 20px 40px;
 	color: #fff;
 	background: linear-gradient(270deg, #000000, #1612d0, #000000);
 	background-size: 600% 600%;
@@ -41,6 +42,4 @@
 			background-position: 0% 50%;
 		}
 	}
-
-	padding: 20px 40px;
 }
