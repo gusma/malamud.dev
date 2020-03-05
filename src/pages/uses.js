@@ -33,10 +33,15 @@ class Uses extends React.Component {
 								replace parts is always good.
 							</p>
 							<h2>Software</h2>
-							<ul>
-								<li>VSCode</li>
-								<li>Extensions: Prettier, ESLint, Wakatime, VSIcons.</li>
-							</ul>
+							<h3>VSCode</h3>
+							<p>
+								VS Code has been in the recent past been a go-to tool for me.
+								It's pretty much the best product MS ever built, I think (and
+								I've been around long enough to see quite a few of them). It's
+								got extensions, plugins, auto-fillers, text-based configuration,
+								built in terminal windows, <i>what else could you ask for?</i>
+							</p>
+							<h3>Extensions: Prettier, ESLint, Wakatime, VSIcons.</h3>
 							<p>
 								Will keep on writing this!{" "}
 								<Link to='/'>Get back to Home Page.</Link>
