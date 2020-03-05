@@ -1,7 +1,7 @@
 .field {
 	width: 100%;
 }
-input {
+ul li {
 	list-style-type: none;
 	flex-direction: column;
 }

@@ -26,11 +26,11 @@ class Contact extends React.Component {
 					<input type='hidden' name='bot-field' />
 					<input type='hidden' name='form-name' value='contact' />
 
-					<div className='field half first'>
+					<div className='field'>
 						<label htmlFor='name'>Name</label>
 						<input type='text' name='name' id='name' />
 					</div>
-					<div className='field half'>
+					<div className='field'>
 						<label htmlFor='email'>Email</label>
 						<input type='text' name='email' id='email' />
 					</div>
