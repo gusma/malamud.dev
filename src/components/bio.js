@@ -55,9 +55,11 @@ const Bio = () => {
 			/>
 			<p>
 				Written by <strong>Gustavo Malamud</strong> who lives and works in
-				Buenos Aires, making all kinds of terrible things with optimism.
-				{` `}
-				<Link to='/contact'>Speak your mind.</Link>
+				Buenos Aires, making all kinds of terrible things with{" "}
+				<strike>moderate</strike> optimism.
+				<br />
+				<Link to='/contact'>Speak your mind.</Link> Or else
+				<Link to='/about'> find out a bit more about me.</Link>
 			</p>
 			<hr />
 		</div>
