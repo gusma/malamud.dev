@@ -39,7 +39,7 @@ class Uses extends React.Component {
 								It's pretty much the best product MS ever built, I think (and
 								I've been around long enough to see quite a few of them). It's
 								got extensions, plugins, auto-fillers, text-based configuration,
-								built in terminal windows, <i>what else could you ask for?</i>.
+								built in terminal windows, <i>what else could you ask for?</i>
 							</p>
 							<h3>Extensions: Prettier, ESLint, Wakatime, VSIcons.</h3>
 							<p>
