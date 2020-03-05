@@ -60,8 +60,10 @@ class About extends React.Component {
 							<p>
 								Have some project I can help you with?{" "}
 								<i>Need advisory on making a solid argentinian barbecue?</i>{" "}
-								Could use my help on your projects? Wish to buy me a beer, a
-								coffee or some chill pills?{" "}
+								Could use my help on your projects?{" "}
+								<a href='https://www.buymeacoffee.com/aEZYFAS'>
+									Wish to buy me a beer, a coffee or some chill pills?
+								</a>{" "}
 								<Link to='/contact'>Get in touch with me!</Link>
 							</p>
 							<p>
