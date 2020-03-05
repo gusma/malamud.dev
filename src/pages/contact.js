@@ -20,9 +20,11 @@ class Contact extends React.Component {
 					netlify-honeypot='bot-field'
 					data-netlify='true'
 					action='/success'
+					name='contact'
 				>
 					<input type='hidden' name='bot-field' />
 					<input type='hidden' name='form-name' value='contact' />
+
 					<div className='field half first'>
 						<label htmlFor='name'>Name</label>
 						<input type='text' name='name' id='name' />
