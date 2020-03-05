@@ -6,7 +6,7 @@
  */
 
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, Link } from "gatsby";
 import Image from "gatsby-image";
 
 import { rhythm } from "../utils/typography";
@@ -57,7 +57,7 @@ const Bio = () => {
 				Written by <strong>Gustavo Malamud</strong> who lives and works in
 				Buenos Aires, making all kinds of terrible things with optimism.
 				{` `}
-				<a href={`https://twitter.com/${social.twitter}`}>Speak your mind.</a>
+				<Link to='/contact'>Speak your mind.</Link>
 			</p>
 			<hr />
 		</div>

@@ -5,8 +5,6 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import "./contact.css";
 
-import { rhythm } from "../utils/typography";
-
 class Contact extends React.Component {
 	render() {
 		const { data } = this.props;
@@ -28,15 +26,18 @@ class Contact extends React.Component {
 
 					<div className='field'>
 						<label htmlFor='name'>Name</label>
-						<input type='text' name='name' id='name' />
+						<br />
+						<input type='text' name='name' id='name' required />
 					</div>
 					<div className='field'>
 						<label htmlFor='email'>Email</label>
-						<input type='text' name='email' id='email' />
+						<br />
+						<input type='text' name='email' id='email' required />
 					</div>
 					<div className='field'>
 						<label htmlFor='message'>Message</label>
-						<textarea name='message' id='message' rows='6' />
+						<br />
+						<textarea name='message' id='message' rows='6' required />
 					</div>
 					<ul className='actions'>
 						<li>

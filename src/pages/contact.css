@@ -1,8 +1,12 @@
 .field {
 	width: 100%;
-	margin: 5%;
+	margin: 2%;
 }
 ul li {
 	list-style-type: none;
-	flex-direction: column;
+	display: inline-flex;
+}
+ul li input {
+	display: inline-flex;
+	margin: 5px;
 }
