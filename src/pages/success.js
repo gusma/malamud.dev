@@ -1,14 +1,11 @@
 import React from "react";
-import Helmet from "react-helmet";
+import { Link, graphql } from "gatsby";
+
 import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const Success = props => (
-	<Layout>
-		<Helmet>
-			<title>Success Page</title>
-			<meta name='description' content='Success Page' />
-		</Helmet>
-
+	<Layout location={this.props.location} title={siteTitle}>
 		<div id='main' className='alt'>
 			<section id='one'>
 				<div className='inner'>
@@ -16,7 +13,10 @@ const Success = props => (
 						<h1>Success/Thank You Page</h1>
 					</header>
 					<span className='image main'></span>
-					<p>Thank you for contacting us!</p>
+					<p>Thank you for contacting me!</p>
+					<p>
+						<Link to='/'>Back to home page.</Link>
+					</p>
 				</div>
 			</section>
 		</div>
@@ -24,3 +24,13 @@ const Success = props => (
 );
 
 export default Success;
+
+export const pageQuery = graphql`
+	query {
+		site {
+			siteMetadata {
+				title
+			}
+		}
+	}
+`;
