@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
+import Typewriter from "typewriter-effect";
 
 import Layout from "../components/layout";
 
@@ -17,7 +18,21 @@ class About extends React.Component {
 								<h1>About Gustavo Malamud</h1>
 							</header>
 							<h2>
-								Hi. Sorry to annoy you with an overused phrase. I'm Gustavo.
+								<Typewriter
+									options={{ delay: 85 }}
+									onInit={typewriter => {
+										typewriter
+											.typeString("Hi!")
+											.pauseFor(100)
+											.typeString(
+												" Sorry to annoy you with an overused phrase."
+											)
+											.typeString(" I'm Gustavo and I make <i>asados</i>.")
+											.deleteChars(15)
+											.typeString(" I'm a developer.")
+											.start();
+									}}
+								/>
 							</h2>
 							<p>
 								I'm 36 years old, from Argentina. I've recently begun my career

@@ -53,6 +53,7 @@ const Bio = () => {
 					borderRadius: `50%`
 				}}
 			/>
+
 			<p>
 				Written by <strong>Gustavo Malamud</strong> who lives and works in
 				Buenos Aires, making all kinds of terrible things with{" "}
