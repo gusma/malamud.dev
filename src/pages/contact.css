@@ -1,12 +1,12 @@
-.field {
+.contact .field {
 	width: 100%;
 	margin: 2%;
 }
-ul li {
+.contact ul li {
 	list-style-type: none;
 	display: inline-flex;
 }
-ul li input {
+.contact ul li input {
 	display: inline-flex;
 	margin: 5px;
 }

@@ -69,7 +69,8 @@ class Layout extends React.Component {
 					<p>
 						Gustavo Malamud - © {new Date().getFullYear()}. Built with
 						{` `}
-						<a href='https://www.gatsbyjs.org'>Gatsby</a>.
+						<a href='https://www.gatsbyjs.org'>Gatsby</a>. 🔥
+						<Link to='/uses'> Uses page.</Link>
 					</p>
 				</footer>
 			</div>

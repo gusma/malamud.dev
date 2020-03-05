@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-about-js": hot(preferDefault(require("/Users/macbook/Web/malamud.dev/src/pages/about.js"))),
   "component---src-pages-contact-js": hot(preferDefault(require("/Users/macbook/Web/malamud.dev/src/pages/contact.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/macbook/Web/malamud.dev/src/pages/index.js"))),
-  "component---src-pages-success-js": hot(preferDefault(require("/Users/macbook/Web/malamud.dev/src/pages/success.js")))
+  "component---src-pages-success-js": hot(preferDefault(require("/Users/macbook/Web/malamud.dev/src/pages/success.js"))),
+  "component---src-pages-uses-js": hot(preferDefault(require("/Users/macbook/Web/malamud.dev/src/pages/uses.js")))
 }
 

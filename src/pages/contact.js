@@ -20,6 +20,7 @@ class Contact extends React.Component {
 					data-netlify='true'
 					action='/success'
 					name='contact'
+					className='contact'
 				>
 					<input type='hidden' name='bot-field' />
 					<input type='hidden' name='form-name' value='contact' />
