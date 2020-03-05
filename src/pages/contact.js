@@ -3,7 +3,7 @@ import { graphql } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import "contact.css";
+import "./contact.css";
 
 import { rhythm } from "../utils/typography";
 
