@@ -5,7 +5,7 @@ description: "On how/ why I left Israel."
 featuredImage: ./yeridah.jpg
 ---
 
-![Tel Aviv / Yaffo]('./yeridah.jpg')
+![Tel Aviv / Yaffo](./yeridah.jpg)
 
 # Yerida, and other hard choices.
 
