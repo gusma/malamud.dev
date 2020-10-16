@@ -1,29 +1,32 @@
 var plugins = [{
-      plugin: require('/Users/macbook/Web/malamud.dev/node_modules/gatsby-remark-images/gatsby-ssr'),
+      plugin: require('/Users/lint/Web/malamud-dev-3/node_modules/gatsby-plugin-dark-mode/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/lint/Web/malamud-dev-3/node_modules/gatsby-remark-images/gatsby-ssr'),
       options: {"plugins":[],"maxWidth":590},
     },{
-      plugin: require('/Users/macbook/Web/malamud.dev/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('/Users/lint/Web/malamud-dev-3/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/macbook/Web/malamud.dev/node_modules/gatsby-plugin-feed/gatsby-ssr'),
+      plugin: require('/Users/lint/Web/malamud-dev-3/node_modules/gatsby-plugin-feed/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/macbook/Web/malamud.dev/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/lint/Web/malamud-dev-3/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Gatsby Starter Blog","short_name":"GatsbyJS","start_url":"/","background_color":"#ffffff","theme_color":"#663399","display":"minimal-ui","icon":"content/assets/gatsby-icon.png"},
     },{
-      plugin: require('/Users/macbook/Web/malamud.dev/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/Users/lint/Web/malamud-dev-3/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/macbook/Web/malamud.dev/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('/Users/lint/Web/malamud-dev-3/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/macbook/Web/malamud.dev/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/lint/Web/malamud-dev-3/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/macbook/Web/malamud.dev/node_modules/gatsby-plugin-typography/gatsby-ssr'),
+      plugin: require('/Users/lint/Web/malamud-dev-3/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     },{
-      plugin: require('/Users/macbook/Web/malamud.dev/node_modules/gatsby-plugin-google-tagmanager/gatsby-ssr'),
+      plugin: require('/Users/lint/Web/malamud-dev-3/node_modules/gatsby-plugin-google-tagmanager/gatsby-ssr'),
       options: {"plugins":[],"id":"GTM-WQKPX65","includeInDevelopment":false,"defaultDataLayer":{"type":"object","value":{"platform":"gatsby"}},"gtmAuth":"YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING","gtmPreview":"YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME","dataLayerName":"YOUR_DATA_LAYER_NAME"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

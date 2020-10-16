@@ -23,6 +23,7 @@ module.exports = {
 				name: `assets`,
 			},
 		},
+		'gatsby-plugin-dark-mode',
 		{
 			resolve: `gatsby-transformer-remark`,
 			options: {
