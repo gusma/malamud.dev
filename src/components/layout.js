@@ -6,7 +6,8 @@ import { rhythm, scale } from "../utils/typography";
 import { ThemeToggler } from 'gatsby-plugin-dark-mode';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faLightbulb
+	faLightbulb,
+	faIdBadge
 } from '@fortawesome/free-solid-svg-icons'
 
 class Layout extends React.Component {
@@ -20,6 +21,20 @@ class Layout extends React.Component {
 			header = (
 				<>
 				<div className="colorToggler">
+				<ul>
+					<li>
+				<Link
+						style={{
+							boxShadow: `none`,
+							textDecoration: `none`,
+							color: `inherit`
+						}}
+						to={`/about`}
+					>
+				<FontAwesomeIcon icon={faIdBadge} size="2x" />		
+				</Link>	
+				</li>
+				<li>
 				<ThemeToggler>
         {({ theme, toggleTheme }) => (
 				 <span
@@ -31,6 +46,7 @@ class Layout extends React.Component {
 				 </span>		
         )}
       </ThemeToggler>
+			</li></ul>
 			</div>
 				<h1
 					style={{

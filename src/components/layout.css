@@ -20,8 +20,9 @@ body.dark {
 
 .colorToggler{
 	text-align:right;
-	padding-bottom:10px;
 }
+
+.colorToggler ul li{ display:inline-block;padding:0 0 0 20px;list-style-type: none;}
 	
 
 .great-title {
