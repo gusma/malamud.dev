@@ -42,6 +42,8 @@ class Uses extends React.Component {
 								built in terminal windows, <i>what else could you ask for?</i>
 							</p>
 							<h3>Extensions: Prettier, ESLint, Wakatime, VSIcons.</h3>
+							<h3>iTerm 2 + [Fig](https://fig.io/)</h3>
+							<p>iTerm is your trusty non-standard terminal tool for Mac, tuned for great performance. And *Fig* in this case constitutes the steroids: Still in beta, it hands excellent options for autocompleting your shell commands, giving your terminal a full power up. Try it!</p>
 							<p>
 								Will keep on writing this!{" "}
 								<Link to='/'>Get back to Home Page.</Link>
