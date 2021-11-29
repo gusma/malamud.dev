@@ -6,13 +6,16 @@ featuredImage: ./partials.png
 
 ---
 
-Eleventy seems like a such a nifty tool for building websites, doesn't it? Yet why, for some things that are basic to it like partials does it seem so obscure for the documentation to find?
+![Using Partials](./partials.png)
 
-Here's the key, slash TL;DR: building layouts with Eleventy and partials is way too easy. Yet it's not properly advertised (you'd even wish to find it somewhere within the Layouts document or within the Nunjucks documentation in Eleventy too, but somehow it doesn't appear)
 
-** Warning: this could become outdated too, so also please check which version or which year you are working on it, it may have become outdated! **
+[Eleventy](https://www.11ty.dev) seems like a such a nifty tool for building websites, doesn't it? Yet why, for some things that are basic to it like partials does it seem so obscure for the documentation to find?
 
-Whenever you're working with a layouting in Eleventy you will find that, for an example, it's unusual to find them already split into parts, generally examples are bound together in one page (which is neat, considering that Nunjucks has a pretty summed up, short and sweet syntax).
+Here's the key, slash *TL;DR*: building layouts with Eleventy and partials is way too easy. ***Yet*** *it's not properly advertised (you'd even wish to find it somewhere within the Layouts document or within the [Nunjucks documentation in Eleventy](https://www.11ty.dev/docs/languages/nunjucks/) too, but somehow it doesn't appear)*
+
+***Warning: this could become outdated too, so also please check which version or which year you are working on it, it may have become outdated!***
+
+Whenever you're working with a layouting in Eleventy you will find that, for an example, it's unusual to find them already split into parts, generally examples are bound together in one page (which is neat, considering that [Nunjucks](https://mozilla.github.io/nunjucks/) has a pretty summed up, short and sweet syntax).
 
 I understand, you may say, that partials within the layout is a part of Nunjucks. Nevertheless, if you're going to bind yourself, being Eleventy, to Nunjucks as one of the default options, you should include this kind of examples. 
 
@@ -41,10 +44,10 @@ Take, for instance, the full layout being used for an example I'm working with:
   <!-- Twitter -->
   <meta name="twitter:title" content="{{ title }}">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@gusma">
+  <meta name="twitter:site" content="@xxx">
   <meta name="twitter:description" content="{{ desc or title }}">
   <meta name="twitter:image" content="{{ cover }}">
-  <meta name="twitter:creator" content="@gusma">
+  <meta name="twitter:creator" content="@xxx">
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" rel="preload" as="style"/>
   <link rel="preload" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
   <noscript>
@@ -61,7 +64,7 @@ Take, for instance, the full layout being used for an example I'm working with:
     }
 
     gtag('js', new Date());
-    gtag('config', '{{ env.tracking.gtag }}');
+    gtag('config', 'XXXX');
   </script>
 </head>
 
@@ -83,8 +86,8 @@ Take, for instance, the full layout being used for an example I'm working with:
 
 </main>
 <footer class="pa4 ph7-l mw9-l center bt b--black-10 black-70">
-  <a href="mailto:" class="link b f3 f2-ns dim black-70 lh-solid">Parripollo</a>
-  <p class="f6 db b ttu lh-solid">© 2021 PARRIPOLLO.</p>
+  <a href="mailto:" class="link b f3 f2-ns dim black-70 lh-solid">XXXX</a>
+  <p class="f6 db b ttu lh-solid">© 2021 XXXX.</p>
   <div class="mt5">
     <a href="/about/" title="About" class="f6 dib pr2 mid-gray dim">About</a>
     <a href="/terms/"    title="Terms" class="f6 dib ph2 mid-gray dim">Terms of Use</a>
@@ -92,21 +95,25 @@ Take, for instance, the full layout being used for an example I'm working with:
   </div>
 </footer>
 </body>
-</html>```
+</html>
+```
 
-Quite long, ain't it?
+### Quite long, ain't it? ###
 
 What should we do?
 
 In this case, create .njk files for the sections we use, copy literally the code we're going to use, and then include the sections from the files as follows:
 
-```{% include "./folder/nameofthefile.njk" %}```
+```
+{% include "./folder/nameofthefile.njk" %}
+```
 
 where _name of the file_ is the name of the partial you're including.
 
 That's it! Pretty silly, but could have used a short article for it. After shortening this up, the code becomes:
 
-```{% include "./_sections/_header.njk" %}
+```
+{% include "./_sections/_header.njk" %}
 
 <main class="pa4 ph7-l mw9-l center pv3 sans-serif lh-copy tj">
 
@@ -114,7 +121,11 @@ That's it! Pretty silly, but could have used a short article for it. After short
 
 </main>
 
-{% include "./_sections/_footer.njk" %}```
+{% include "./_sections/_footer.njk" %}
+```
+
+### And then what? ###
 
 And you paste your sections into your _header.njk and _footer.njk files within your _sections folder (I've built the folder structure like this, but this doesn't mean you **HAVE** to use the same structure as me.)
 
+Good luck!
