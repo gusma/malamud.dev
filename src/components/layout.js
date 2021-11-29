@@ -8,10 +8,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
 	faLightbulb,
 	faIdBadge
-} from '@fortawesome/free-solid-svg-icons'
+} from '@fortawesome/free-solid-svg-icons';
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
 
 class Layout extends React.Component {
+	
 	render() {
+		deckDeckGoHighlightElement();
 		const { location, title, children } = this.props;
 		const rootPath = `${__PATH_PREFIX__}/`;
 		
