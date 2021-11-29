@@ -5,16 +5,10 @@ import "./layout.css";
 import { rhythm, scale } from "../utils/typography";
 import { ThemeToggler } from 'gatsby-plugin-dark-mode';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-	faLightbulb,
-	faIdBadge
-} from '@fortawesome/free-solid-svg-icons';
-import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
+import { faLightbulb, faIdBadge } from '@fortawesome/free-solid-svg-icons'
 
 class Layout extends React.Component {
-	
 	render() {
-		deckDeckGoHighlightElement();
 		const { location, title, children } = this.props;
 		const rootPath = `${__PATH_PREFIX__}/`;
 		
