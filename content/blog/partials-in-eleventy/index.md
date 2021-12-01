@@ -25,7 +25,7 @@ So, the idea will be to include the code for a full page, and show you how this 
 
 Take, for instance, the full layout being used for an example I'm working with:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>

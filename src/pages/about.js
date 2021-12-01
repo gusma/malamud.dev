@@ -35,7 +35,7 @@ class About extends React.Component {
 								/>
 							</h2>
 							<p>
-								I'm 36 years old, from Argentina. I've recently begun my career
+								I'm currently 38 years old, from Argentina. I've recently begun my career
 								as a Front End Web Developer after working 14 years in the
 								Digital Marketing industry. No terrible regrets about it, just
 								needed a change.

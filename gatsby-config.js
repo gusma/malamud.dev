@@ -1,6 +1,6 @@
 module.exports = {
 	siteMetadata: {
-		title: `New at this, at 36`,
+		title: `New at this, at 38`,
 		author: `Gustavo Malamud`,
 		description: `Gustavo Malamud is a Front-End Developer slash Digital Marketer from Buenos Aires, Argentina. 🇦🇷 `,
 		siteUrl: `https://malamud.dev/`,
