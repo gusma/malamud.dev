@@ -5,8 +5,6 @@ description: "Short notes on how to avoid certain pitfalls"
 featuredImage: ./learn-hotwire.png
 ---
 
-<Image src="learn-hotwire.png" alt="Learn Hotwire by Andrea Fomera" />
-
 ![Learn Hotwire by Andrea Fomera](./learn-hotwire.png)
 
 > First and foremost let me clear this post wasn't in any way created to badmouth the authoress of this course or the content she creates. On the contrary, I'm currently taking this course and loving it, and thought I would save everyone ten minutes of setup if they were to fall on the same errors as me. 
