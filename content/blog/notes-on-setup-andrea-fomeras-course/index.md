@@ -7,12 +7,12 @@ featuredImage: ./learn-hotwire.png
 
 ![Learn Hotwire by Andrea Fomera](./learn-hotwire.png)
 
-> First and foremost let me clear this post wasn't in any way created to badmouth the authoress of this course or the content he creates. On the contrary, I'm currently taking this course and loving it, and thought I would save everyone ten minutes of setup if they were to fall on the same errors as me. 
+> First and foremost let me clear this post wasn't in any way created to badmouth the authoress of this course or the content she creates. On the contrary, I'm currently taking this course and loving it, and thought I would save everyone ten minutes of setup if they were to fall on the same errors as me. 
 
 As some sort of second disclaimer: I'm a newbie Rails developer, and for all purposes I'm a newbie developer overall. I find myself amazed and at the same time frustrated at the things I discover and at no instant think about myself as any kind of good or superb developer. I'm the tail, struggling end of developers, at least for now. I'm just trying to learn how to solve things. I'm your noob, at only thirty eight-years all.
 This being said, if this, what I write, sounds stupid to you, or causes you to say "duh, I knew that", sorry, I didn't. You can skip this post if that is so.
 
-[Andrea Fomera](https://aformera.dev)'s course on [Learning Hotwire](https://store.afomera.dev/learn-hotwire) looks badass and I'm currently taking it. Loving it. Haven't finished it, yet, though, but woulnd't doubt on recommending it. Nevertheless, instead of tweeting about this where all the little bits of wasted-time wisdom may have been lost, I preferred to take the hard way and comment on some of the pitfalls of the first part setup of the Learn Hotwire course. I underwent some of them.
+[Andrea Fomera](https://afomera.dev)'s course on [Learning Hotwire](https://store.afomera.dev/learn-hotwire) looks badass and I'm currently taking it. Loving it. Haven't finished it, yet, though, but woulnd't doubt on recommending it. Nevertheless, instead of tweeting about this where all the little bits of wasted-time wisdom may have been lost, I preferred to take the hard way and comment on some of the pitfalls of the first part setup of the Learn Hotwire course. I underwent some of them.
 
 > Let me please clarify. I'm currently working with a Macbook Pro M1 14". 
 > The computer's quite anew and M1 has quite a bit of issues and scores still to settle architecture wise. Nevertheless, even if we have installed Rosetta for our terminal, we're using it as-is. You can pull the change but the idea is not to depend, over the future, with having to 'roll-back' your Terminal to work with architectures that the computer will not use forever.
