@@ -27,7 +27,7 @@ Thor::Error: The file /Users/gustavomalamud/repos/rails-forum-demo/config/webpac
 does not appear to exist
 ```
 
-The first error generated was, that as this is a right-out-of-the-box computer, so remember to install Yarn if you haven't. It won't express itself deliberately, but you will detect the difference at the extent (or length) of the installation process the Template script gets to.
+The first error generated was, that as this is a right-out-of-the-box computer, so remember to install Yarn if you haven't. It won't express itself deliberately, but you will detect the difference at the extent (or length) of the installation process the Template script gets to. Our main issue here is a frontend issue, specifically with dependencies and how the computer we're using is taking them.
 
 At the tail end of the installation of the template. I don't quite know why Node v17 is being unable to handle installing webpack along with the template, but it does. Hence, it doesn't install Webpack, nor its directory within config, nor the environment.js file. 
 
