@@ -7,7 +7,7 @@ featuredImage: ./learn-hotwire.png
 
 ![Learn Hotwire by Andrea Fomera](./learn-hotwire.png)
 
-> First and foremost let me clear this post wasn't in any way created to badmouth the author of this course or the content he creates. On the contrary, I'm currently taking this course and loving it, and thought I would save everyone ten minutes of setup if they were to fall on the same errors as me. 
+> First and foremost let me clear this post wasn't in any way created to badmouth the authoress of this course or the content he creates. On the contrary, I'm currently taking this course and loving it, and thought I would save everyone ten minutes of setup if they were to fall on the same errors as me. 
 
 As some sort of second disclaimer: I'm a newbie Rails developer, and for all purposes I'm a newbie developer overall. I find myself amazed and at the same time frustrated at the things I discover and at no instant think about myself as any kind of good or superb developer. I'm the tail, struggling end of developers, at least for now. I'm just trying to learn how to solve things. I'm your noob, at only thirty eight-years all.
 This being said, if this, what I write, sounds stupid to you, or causes you to say "duh, I knew that", sorry, I didn't. You can skip this post if that is so.
