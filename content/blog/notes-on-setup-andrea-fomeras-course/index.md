@@ -23,7 +23,8 @@ For an example, [when applying the template to install from Railsbytes](https://
 
 ```
 rails aborted!
-Thor::Error: The file /Users/gustavomalamud/repos/rails-forum-demo/config/webpack/environment.js does not appear to exist
+Thor::Error: The file /Users/gustavomalamud/repos/rails-forum-demo/config/webpack/environment.js 
+does not appear to exist
 ```
 
 The first error generated was, that as this is a right-out-of-the-box computer, so remember to install Yarn if you haven't. It won't express itself deliberately, but you will detect the difference at the extent (or length) of the installation process the Template script gets to.
