@@ -5,6 +5,8 @@ description: "Short notes on how to avoid certain pitfalls"
 featuredImage: ./learn-hotwire.png
 ---
 
+<Image src="learn-hotwire.png" alt="Learn Hotwire by Andrea Fomera" />
+
 ![Learn Hotwire by Andrea Fomera](./learn-hotwire.png)
 
 > First and foremost let me clear this post wasn't in any way created to badmouth the authoress of this course or the content she creates. On the contrary, I'm currently taking this course and loving it, and thought I would save everyone ten minutes of setup if they were to fall on the same errors as me. 
@@ -21,7 +23,7 @@ This being said, if this, what I write, sounds stupid to you, or causes you to s
 As this is written in 2022, and the course may have been written a few months ago (perhaps a year?) a few of its dependencies may cause issues. Especially with how quirky M1's are for everything.
 For an example, [when applying the template to install from Railsbytes](https://railsbytes.com/public/templates/xkjs12). Doing so, with Ruby v3.0.0, having installed Rails v7 and NodeJS v17 (through NVM), you may run across a few issues. The first, may be:
 
-```
+```sh
 rails aborted!
 Thor::Error: The file /Users/gustavomalamud/repos/rails-forum-demo/config/webpack/environment.js 
 does not appear to exist
@@ -33,7 +35,7 @@ At the tail end of the installation of the template. I don't quite know why Node
 
 Looking for this particular error may tempt you to stack-overflow some solutions, such as these:
 
-```
+```sh
 export NODE_OPTIONS=--openssl-legacy-provider
 ```
 
@@ -41,7 +43,7 @@ export NODE_OPTIONS=--openssl-legacy-provider
 
 This will render your node installation useless. At least until you run another command. The fix for this will be to run that same command with an addendum:
 
-```
+```sh
 export NODE_OPTIONS=--openssl-legacy-provider unset NODE_OPTIONS
 ```
 
@@ -51,7 +53,7 @@ Instead, perhaps, your original solution would be to downgrade your nvm node ver
 
 So, we go:
 
-```
+```sh
 nvm install 16
 nvm use 16
 ```
@@ -60,7 +62,7 @@ And then run your Railsbytes template once again.  Should that not work to insta
 
 First, erase your previous dependencies:
 
-```
+```sh
 /node_modules
 /tmp/cache
 yarn.lock
@@ -69,7 +71,7 @@ Gemfile.lock
 
 And then re-install dependencies:
 
-```
+```sh
 bundle install
 rails webpacker:install
 rails assets:precompile
