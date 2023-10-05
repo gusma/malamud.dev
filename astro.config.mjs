@@ -6,5 +6,5 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://gusma.github.io',
-	base: '/malamud.dev',	integrations: [mdx(), sitemap()],
+	base: '/',	integrations: [mdx(), sitemap()],
 });
