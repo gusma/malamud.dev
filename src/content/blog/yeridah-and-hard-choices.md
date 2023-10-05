@@ -2,10 +2,10 @@
 title: 'Yerida, and other hard choices'
 description: "On how/ why I left Israel."
 pubDate: 'Jul 07 2020'
-heroImage: '/img/yeridah.jpg'
+heroImage: '/yeridah.jpg'
 ---
 
-![Tel Aviv / Yaffo](/img/yeridah.jpg)
+<!-- ![Tel Aviv / Yaffo](yeridah.jpg) -->
 
 ## DISCLAIMER: This post contains non-technical and even personal questions, and is not meant as a complaint nor on Israel nor its people. It's merely a reflection of the situation I underwent while living in the middle east. If this should resonate with you, if you should have questions, need help or a listening ear, feel free to hit me up
 
