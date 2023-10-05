@@ -8,5 +8,6 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	site: 'https://www.malamud.dev',
 	integrations: [mdx(), sitemap()],
-	adapter: netlify()
+	output: 'server',
+	adapter: netlify(),
 });
