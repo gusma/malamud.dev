@@ -2,7 +2,7 @@
 title: 'Building your coding career anew at 36. (Part 1)'
 description: "On how to start over at 36 without losing your mind. Or how somehow I made it without going bald!"
 pubDate: 'Oct 13 2019'
-heroImage: '/blog-placeholder-3.jpg'
+heroImage: "blog-placeholder-3.jpg"
 ---
 
 I'm not fully sure how to begin this, so, I'll try to take it as pragmatically as I can.
