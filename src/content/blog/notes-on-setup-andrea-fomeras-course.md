@@ -2,7 +2,7 @@
 title: 'Some setup notes on Andrea Fomeras Learn Hotwire Course'
 description: "Short notes on how to avoid certain pitfalls"
 pubDate: 'Apr 9 2022'
-heroImage: "/learn-hotwire.png"
+heroImage: "learn-hotwire.png"
 ---
 
 <!-- ![Learn Hotwire by Andrea Fomera](learn-hotwire.png) -->

@@ -2,7 +2,7 @@
 title: 'Yerida, and other hard choices'
 description: "On how/ why I left Israel."
 pubDate: 'Jul 07 2020'
-heroImage: "/yeridah.jpg"
+heroImage: "yeridah.jpg"
 ---
 
 <!-- ![Tel Aviv / Yaffo](yeridah.jpg) -->

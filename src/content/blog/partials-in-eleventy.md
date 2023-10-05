@@ -2,7 +2,7 @@
 title: 'Using partials with Eleventy'
 description: "Eleventy seems like a such a nifty tool for building websites, doesn't it? Yet why, for some things that are basic to it like partials does it seem so obscure for the documentation to find?"
 pubDate: 'Nov 29 2021'
-heroImage: "/partials.png"
+heroImage: "partials.png"
 ---
 
 <!-- ![Using Partials](partials.png) -->
