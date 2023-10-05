@@ -2,10 +2,10 @@
 title: 'Some setup notes on Andrea Fomeras Learn Hotwire Course'
 description: "Short notes on how to avoid certain pitfalls"
 pubDate: 'Apr 9 2022'
-heroImage: '/img/learn-hotwire.png'
+heroImage: 'img/learn-hotwire.png'
 ---
 
-![Learn Hotwire by Andrea Fomera](/img/learn-hotwire.png)
+![Learn Hotwire by Andrea Fomera](img/learn-hotwire.png)
 
 > First and foremost let me clear this post wasn't in any way created to badmouth the authoress of this course or the content she creates. On the contrary, I'm currently taking this course and loving it, and thought I would save everyone ten minutes of setup if they were to fall on the same errors as me. 
 
