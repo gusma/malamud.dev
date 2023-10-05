@@ -7,5 +7,4 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	site: 'https://gusma.github.io',
 	base: '/malamud.dev',	integrations: [mdx(), sitemap()],
-	output: 'server',
 });
