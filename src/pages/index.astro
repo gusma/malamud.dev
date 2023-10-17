@@ -80,8 +80,8 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header />
 		<main>
-      <MainProfile />
-      <br />
+		<MainProfile />
+		<br />
 			<section>
 				<ul>
 					{
@@ -89,13 +89,13 @@ const posts = (await getCollection('blog')).sort(
 							<li>
 								<a href={`/blog/${post.slug}/`}>
 									<img width={720} height={360} src={post.data.heroImage} alt="" />
-									<h4 class="title top-padding">{post.data.title}</h4>
-									<p class="date uppercase text-sm">
+									<h4 class="title pt-2">{post.data.title}</h4>
+									<p class="date uppercase text-sm uppercase pt-1">
 										{dayjs(post.data.pubDate).utc().format("MMMM D, YYYY")}
 									</p>
 								</a>
-								<div class="top-padding uppercase">
-									<small>{post.data.description}</small>
+								<div class="pt-4 leading-relaxed">
+									<p class="text-base">{post.data.description}</p>
 								</div>
 							</li>
 						))
