@@ -1,8 +1,9 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+import dayjs from "dayjs";
+import utc from "dayjs/plugin/utc";
+dayjs.extend(utc);
 
 type Props = CollectionEntry<'blog'>['data'];
 
@@ -67,16 +68,14 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
       <article>
         <div class="hero-image">
           {heroImage &&
-          <img width="{1020}" height="{510}" src="{heroImage}" alt="" />}
+          <img width="{1020}" height="{510}" src={heroImage} alt="" />}
         </div>
         <div class="prose">
           <div class="title">
-            <div class="date">
-              {pubDate}
+            <div class="date uppercase text-sm">
+              {dayjs(pubDate).utc().format("DD MMMM YYYY")} 
               { updatedDate && (
-              <div class="last-updated-on">
-                Last updated on {updatedDate}
-              </div>
+              <div class="last-updated-on">Last updated on {updatedDate}</div>
               ) }
             </div>
             <h1>{title}</h1>
