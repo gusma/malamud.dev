@@ -7,8 +7,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://gusma.github.io',
-  base: '/malamud.dev',
+  base: '/',
   integrations: [mdx(), sitemap(), tailwind()],
   output: "static",
   markdown: {
