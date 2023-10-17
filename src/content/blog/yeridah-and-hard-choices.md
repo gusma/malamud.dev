@@ -7,7 +7,7 @@ heroImage: "yeridah.jpg"
 
 <!-- ![Tel Aviv / Yaffo](yeridah.jpg) -->
 
-## DISCLAIMER: This post contains non-technical and even personal questions, and is not meant as a complaint nor on Israel nor its people. It's merely a reflection of the situation I underwent while living in the middle east. If this should resonate with you, if you should have questions, need help or a listening ear, feel free to hit me up
+#### DISCLAIMER: This post contains non-technical and even personal questions, and is not meant as a complaint nor on Israel nor its people. It's merely a reflection of the situation I underwent while living in the middle east. If this should resonate with you, if you should have questions, need help or a listening ear, feel free to hit me up
 
 Back in 2017, I decided to make aliyah from my country of birth, Argentina, to Israel. It was a sound choice, as Argentina's economical socio-political situation always seems to worsen (and has been like that for decades now). Coming from South America, from third world countries, some aspects of living in Israel seem incredibly good, and for the first few months you see yourself amazed at the level the country operates on certain aspects. I was.
 My first few months were a honeymoon of dream and optimism in the face of hardship, loneliness and other factors. I had become an israeli.
