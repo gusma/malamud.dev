@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+import { calculateAge } from '../helpers/ageCalculator.js';
+---
+
+<Layout
+	title="Uses!"
+	description="What I use to get things done."
+	pubDate={new Date('October 17 2023')}>
+      <h3>Hardware</h3>
+      <h4>Macbook Pro</h4>
+      <p>
+        Still hanging on to my Early-2015 Macbook Pro. It's got 8gb ram,
+        i5 processor and 256gb disk space. It's possibly not the most
+        powerful tool in the market nowadays, still it is powerful
+        enough and the MacOS interface still rocks.
+      </p>
+      <p>
+        Also, it's one of the last Macbook pro models to have
+        independent parts (RAM memory, hard disk, etc etc) instead of
+        parts soldered to the Logic Board. And in a country such as
+        Argentina where there is no official Mac support, being able to
+        replace parts is always good.
+      </p>
+      <h3>Software</h3>
+      <h4>VSCode</h4>
+      <p>
+        VS Code has been in the recent past been a go-to tool for me.
+        It's pretty much the best product MS ever built, I think (and
+        I've been around long enough to see quite a few of them). It's
+        got extensions, plugins, auto-fillers, text-based configuration,
+        built in terminal windows, <i>what else could you ask for?</i>.
+      </p>
+      <h5>Extensions: Prettier, ESLint, Wakatime, VSIcons.</h5>
+      <p>
+        Will keep on writing this!
+      </p>
+   
+  <a href='/'>Back to home page.</a>
+</p>
+</Layout>
